@@ -9,12 +9,12 @@ public class D02ReadingTitle {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
-		driver.get("https://www.selenium.dev/");
+		driver.get("https://www.selenium.dev/downloads/");
 		
 		String title = driver.getTitle();
 		System.out.println("Title: " + title);
 		
-		if(title.equals("Selenium"))
+		if(title.contains("Selenium"))
 			System.out.println("Test Case Pass");
 		else
 			System.out.println("Test Case Fail");
