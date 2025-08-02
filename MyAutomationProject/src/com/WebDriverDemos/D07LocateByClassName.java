@@ -17,6 +17,7 @@ public class D07LocateByClassName {
 		WebElement searchBox = driver.findElement(By.className("gLFyf"));
 		searchBox.sendKeys("Madhuri Elephant");
 		searchBox.sendKeys(Keys.ENTER);
+		
 	}
 
 }
