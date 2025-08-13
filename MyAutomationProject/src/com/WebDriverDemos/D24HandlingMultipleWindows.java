@@ -1,7 +1,8 @@
 package com.WebDriverDemos;
 
 import java.time.Duration;
-import java.util.Iterator;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 import org.openqa.selenium.By;
@@ -27,9 +28,13 @@ public class D24HandlingMultipleWindows {
 		Set<String>windows = driver.getWindowHandles();
 		//System.out.println(windows);
 		
-		Iterator<String>itr = windows.iterator();
-		String win1 = itr.next();			//Reads 1st element
-		String win2 = itr.next();			//Reads 2nd element
+		//Iterator<String>itr = windows.iterator();
+		//String win1 = itr.next();			//Reads 1st element
+		//String win2 = itr.next();			//Reads 2nd element
+		
+		List<String>windows1 = new ArrayList<>(windows);
+		String win1 = windows1.get(0);
+		String win2 = windows1.get(1);
 		
 		driver.switchTo().window(win2);
 		Thread.sleep(2000);
