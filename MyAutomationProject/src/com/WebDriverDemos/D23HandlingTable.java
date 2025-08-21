@@ -1,6 +1,7 @@
 package com.WebDriverDemos;
 
 import java.time.Duration;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
@@ -31,6 +32,27 @@ public class D23HandlingTable {
 		
 		System.out.println(rows.get(n).getText());
 		System.out.println(driver.findElement(By.xpath("//*[@id=\"leftcontainer\"]/table/tbody/tr[" + (n+1) + "]")).getText());
+		int i;
+		for(i = 0; i < rows.size(); i++)
+		{
+			if(rows.get(i).getText().contains("Morepen Labs.Lt"))
+				break;
+		}
+		System.out.println(driver.findElement(By.xpath("//*[@id=\"leftcontainer\"]/table/tbody/tr[" + (i+1) + "]")).getText());
+		
+		List<WebElement>currentPrice = driver.findElements(By.xpath("//*[@id=\"leftcontainer\"]/table/tbody/tr/td[4]"));
+		double[]cpArray = new double[currentPrice.size()];
+		
+		for(int j = 0; j < currentPrice.size(); j++) {
+			//String cp = currentPrice.get(j).getText();
+			//cp = cp.replace(",", "");
+			//cpArray[j] = Double.parseDouble(cp);
+			cpArray[j] = Double.parseDouble(currentPrice.get(j).getText().replace(",", ""));
+			//System.out.println(cpArray[i]);
+		}
+		Arrays.sort(cpArray);
+		System.out.println("Highest: " + cpArray[cpArray.length-1]);
+		
 		
 		driver.close();
 	}

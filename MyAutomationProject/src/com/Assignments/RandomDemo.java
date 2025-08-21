@@ -1,6 +1,7 @@
 package com.Assignments;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
@@ -15,7 +16,7 @@ public class RandomDemo {
 		//Will generate any random number in the range of 0 to 9
 		System.out.println(n);
 		
-		Set<String>friends = new HashSet<>();
+		List<String>friends = new ArrayList<>();
 		friends.add("Kajal");
 		friends.add("Sharwari");
 		friends.add("Sheetal");
@@ -23,12 +24,8 @@ public class RandomDemo {
 		
 		System.out.println(friends);
 		
-		Iterator<String>itr = friends.iterator();
-		while(itr.hasNext())
-			System.out.println(itr.next());
-		
-		List<String>friends1 = new ArrayList<>(friends);
-		System.out.println(friends1.get(0));
+		Collections.sort(friends);
+		System.out.println(friends);
 	}
 
 }
