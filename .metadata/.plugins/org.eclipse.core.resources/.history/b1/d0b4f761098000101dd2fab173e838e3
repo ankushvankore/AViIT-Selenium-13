@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "My Suite">
+	<test name = "Execute Single Test">
+		<classes>
+			<class name = "com.TestNGDemos.D05BigbasketAssignment">
+				<methods>
+					<includ name = "testExoticFruit"></includ>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
