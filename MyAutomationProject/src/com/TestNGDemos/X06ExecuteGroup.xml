@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "For Groups">
+	<test name = "Execute Groups">
+		<groups>
+			<run>
+				<include name = "group1"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name = "com.TestNGDemos.D05BigbasketAssignment">
+			</class>
+		</classes>
+	</test>
+</suite>

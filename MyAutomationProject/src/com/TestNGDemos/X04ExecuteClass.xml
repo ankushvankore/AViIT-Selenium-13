@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "My Suite">
+	<test name = "Skip Single Tests">
+		<classes>
+			<class name = "com.TestNGDemos.D05BigbasketAssignment">
+			</class>
+			<class name = "com.TestNGDemos.D06DataProviderDemo">
+			</class>
+		</classes>
+	</test>
+</suite>

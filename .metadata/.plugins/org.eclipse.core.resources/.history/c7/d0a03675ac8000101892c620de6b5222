@@ -1,0 +1,22 @@
+package com.Assignments;
+
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+
+public class Trial {
+  @Test
+  public void f() {
+	  String str = "Ankush";
+	  
+	  System.out.println("Test starts");
+	  
+	  
+	  //Assert.assertTrue(str.contains("Ank"));
+	  
+	  SoftAssert ast = new SoftAssert();
+	  ast.assertTrue(str.contains("ank"));
+	  
+	  System.out.println("Test Ends");
+  }
+}

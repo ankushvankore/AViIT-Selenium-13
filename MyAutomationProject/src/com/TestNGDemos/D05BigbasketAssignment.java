@@ -14,43 +14,43 @@ import org.testng.annotations.Test;
 public class D05BigbasketAssignment {
 	WebDriver driver;
 
-	@Test(priority = 1)
+	@Test(priority = 1, groups = "group1")
 	public void testExoticFruit() {
 		driver.findElement(By.partialLinkText("Exotic Fruits & Veggies")).click();
 	}
-	@Test(priority = 2)
+	@Test(priority = 2, groups = "group2")
 	public void testTea() {
 		driver.findElement(By.partialLinkText("Tea")).click();
 	}
-	@Test(priority = 3)
+	@Test(priority = 3, groups = "group2")
 	public void testGhee() {
 		driver.findElement(By.partialLinkText("Ghee")).click();
 	}
-	@Test(priority = 4)
+	@Test(priority = 4, groups = "group1")
 	public void testNandhini() {
 		driver.findElement(By.partialLinkText("Nandhini")).click();
 	}
 
-	@BeforeMethod
+	@BeforeMethod (alwaysRun = true)
 	public void beforeMethod() {
 		driver.get("https://www.bigbasket.com/");
 		System.out.println("Title: " + driver.getTitle());
 	}
 
-	@AfterMethod
+	@AfterMethod (alwaysRun = true)
 	public void afterMethod() throws InterruptedException {
 		Thread.sleep(5000);
 		System.out.println("Title: " + driver.getTitle());
 	}
 
-	@BeforeTest
+	@BeforeTest (alwaysRun = true)
 	public void beforeTest() {
 		driver = new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 
-	@AfterTest
+	@AfterTest (alwaysRun = true)
 	public void closeBrowser() {
 		driver.close();
 	}
