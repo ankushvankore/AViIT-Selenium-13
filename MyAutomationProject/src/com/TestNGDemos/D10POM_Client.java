@@ -19,7 +19,7 @@ public class D10POM_Client {
 	@Test
 	public void rediffRegistration1() {
 		r1.setFullName("Kajal Barne");
-		r1.setRediffId("Kaja");
+		r1.setRediffId("Kajal");
 		r1.setPassword("kajal@123");
 		r1.setBirthDate("24", "NOV", "2000");
 		Assert.assertTrue(r1.checkAvailablity().contains("Yippie"));
