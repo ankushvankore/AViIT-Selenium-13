@@ -27,6 +27,7 @@ public class D0WriteDataToExcel {
 		cell = row.createCell(0);		//Will create 1st cell in 1st row
 		
 		cell.setCellValue("Kajal");
+		sheet.getRow(0).createCell(1).setCellValue("Barane");
 	}
 
 	@BeforeTest
