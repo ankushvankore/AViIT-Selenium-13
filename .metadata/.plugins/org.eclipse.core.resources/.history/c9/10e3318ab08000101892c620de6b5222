@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite name = "My Suite">
-	<test name = "Skip Single Tests">
-		<packages>
-				<package name = "com.TestNGDemos"></package>
-		</packages>
-	</test>
-</suite>
