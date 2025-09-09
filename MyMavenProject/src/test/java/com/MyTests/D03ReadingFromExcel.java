@@ -5,9 +5,9 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 import org.apache.poi.xssf.usermodel.XSSFCell;
-import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.DataProvider;
 
 public class D03ReadingFromExcel {
 	String fPath = "C:\\Users\\Dell\\Desktop\\OHRM Assignment_Data.xlsx";
@@ -16,39 +16,47 @@ public class D03ReadingFromExcel {
 	XSSFWorkbook wb;
 	XSSFSheet sheet;
 	XSSFCell cell;
-	
+
 	public static void main(String[] args) throws IOException {
-		D03ReadingFromExcel d1 = new D03ReadingFromExcel();
-		d1.readData();
+		//D03ReadingFromExcel d1 = new D03ReadingFromExcel();
+		//d1.readData();
 
 	}
-	public void readData() throws IOException
-	{
+
+	@DataProvider
+	public String[][] readData() throws IOException {
 		file = new File(fPath);
 		fis = new FileInputStream(file);
 		wb = new XSSFWorkbook(fis);
 		sheet = wb.getSheetAt(0);
-		
-		for(int i = 0; i < sheet.getPhysicalNumberOfRows(); i++)
-		{
-			for(int j = 0; j < sheet.getRow(0).getPhysicalNumberOfCells(); j++) {
+
+		int rows = sheet.getPhysicalNumberOfRows();
+		int cells = sheet.getRow(0).getPhysicalNumberOfCells();
+
+		String[][] data = new String[rows][cells];
+		String d = "";
+
+		for (int i = 0; i < rows; i++) {
+			for (int j = 0; j < cells; j++) {
 				cell = sheet.getRow(i).getCell(j);
 
-				switch(cell.getCellType())
-				{
+				switch (cell.getCellType()) {
 				case NUMERIC:
-					System.out.println(cell.getNumericCellValue());
+					d = String.valueOf(cell.getNumericCellValue());
 					break;
 				case STRING:
-					System.out.println(cell.getStringCellValue());
+					d = cell.getStringCellValue();
 					break;
 				default:
 					break;
 				}
+				data[i][j] = d;
 			}
 		}
-		
+
 		wb.close();
 		fis.close();
+		
+		return data;
 	}
 }

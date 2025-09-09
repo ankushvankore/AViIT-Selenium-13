@@ -98,3 +98,249 @@
 2025-09-03 11:29:09,815 [Worker-75: Launching D03ReadingFromExcel] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
 2025-09-03 11:29:44,892 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
 2025-09-03 11:29:44,894 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 09:31:11,255 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 09:31:11,267 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 09:42:33,627 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 09:42:33,630 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 09:42:58,716 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 09:42:58,719 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 09:43:03,841 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 09:43:03,845 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 09:43:18,773 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 09:43:18,776 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 09:43:44,462 [Worker-12: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-09-06 09:44:49,448 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 09:44:49,451 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 09:45:06,924 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 09:45:06,926 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 09:47:44,753 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 09:47:44,757 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 09:49:26,873 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 09:49:26,887 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 09:50:10,958 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 09:50:10,961 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 10:34:21,244 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 10:34:21,246 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 10:37:19,946 [Worker-28: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\AViIT\Demos\Selenium_13\MyMavenProject\pom.xml.
+2025-09-06 10:37:22,497 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 10:37:22,500 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 10:37:24,612 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 10:37:24,615 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 10:37:44,309 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 10:37:44,311 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 10:37:53,715 [Worker-25: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\AViIT\Demos\Selenium_13\MyMavenProject\pom.xml.
+2025-09-06 10:37:55,020 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 10:37:55,023 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 10:38:28,861 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 10:38:28,864 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 10:40:53,423 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 10:40:53,425 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 10:44:14,564 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 10:44:14,566 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 10:52:57,502 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 10:52:57,504 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 10:53:25,808 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 10:53:25,810 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 10:56:40,991 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 10:56:40,993 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 10:57:23,578 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 10:57:23,581 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 10:58:23,875 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 10:58:23,877 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-06 10:58:45,781 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-06 10:58:45,783 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 09:15:14,185 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 09:15:14,223 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 09:15:39,688 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 09:15:39,692 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 09:16:20,586 [Worker-13: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-09 09:16:39,253 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 09:16:39,257 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 09:18:35,847 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 09:18:35,850 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 09:23:27,052 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 09:23:27,055 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 10:11:21,080 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 10:11:21,082 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 10:12:06,107 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 10:12:06,109 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 10:13:42,402 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 10:13:42,406 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 10:14:40,847 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 10:14:40,850 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 10:15:05,670 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 10:15:05,672 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 10:19:11,886 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 10:19:11,890 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 10:19:43,713 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 10:19:43,715 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 10:49:50,357 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\AViIT\Demos\Selenium_13\MyMavenProject\pom.xml.
+2025-09-09 10:49:51,614 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 10:49:51,631 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 10:51:49,707 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\AViIT\Demos\Selenium_13\MyMavenProject\pom.xml.
+2025-09-09 10:51:50,599 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 10:51:50,602 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 10:53:53,695 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 10:53:53,697 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 10:55:22,123 [Worker-25: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 10:55:22,129 [Worker-25: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2025-09-09 10:56:40,697 [Worker-22: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 10:56:40,698 [Worker-22: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2025-09-09 10:57:37,822 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 10:57:37,824 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 10:57:45,503 [Worker-28: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 10:57:45,503 [Worker-28: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2025-09-09 10:58:12,799 [Worker-22: Launching Executing install in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 10:58:12,800 [Worker-22: Launching Executing install in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2025-09-09 10:58:36,474 [Worker-29: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 10:58:36,474 [Worker-29: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2025-09-09 10:59:57,451 [Worker-28: Launching Executing clean in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 10:59:57,451 [Worker-28: Launching Executing clean in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2025-09-09 11:00:14,233 [Worker-29: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 11:00:14,233 [Worker-29: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2025-09-09 11:06:33,097 [Worker-29: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 11:06:33,097 [Worker-29: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2025-09-09 11:17:29,603 [Worker-33: Launching Executing install in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 11:17:29,604 [Worker-33: Launching Executing install in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2025-09-09 11:17:44,524 [Worker-34: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 11:17:44,524 [Worker-34: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2025-09-09 11:18:11,366 [Worker-35: Launching Executing clean in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 11:18:11,366 [Worker-35: Launching Executing clean in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2025-09-09 11:18:21,912 [Worker-36: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 11:18:21,913 [Worker-36: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2025-09-09 11:19:48,912 [Worker-34: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\AViIT\Demos\Selenium_13\MyMavenProject\pom.xml.
+2025-09-09 11:19:50,328 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 11:19:50,330 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 11:19:55,224 [Worker-34: Launching Executing install in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 11:19:55,224 [Worker-34: Launching Executing install in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2025-09-09 11:21:25,793 [Worker-36: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\AViIT\Demos\Selenium_13\MyMavenProject\pom.xml.
+2025-09-09 11:21:27,303 [Worker-36: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\AViIT\Demos\Selenium_13\MyMavenProject\pom.xml.
+2025-09-09 11:21:28,576 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 11:21:28,580 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 11:21:32,465 [Worker-36: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 11:21:32,465 [Worker-36: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2025-09-09 11:21:53,137 [Worker-41: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 11:21:53,137 [Worker-41: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2025-09-09 11:25:40,535 [Worker-43: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\AViIT\Demos\Selenium_13\MyMavenProject\pom.xml.
+2025-09-09 11:25:41,395 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 11:25:41,398 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 11:25:48,604 [Worker-41: Launching Executing install in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 11:25:48,604 [Worker-41: Launching Executing install in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2025-09-09 11:26:02,014 [Worker-41: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 11:26:02,014 [Worker-41: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2025-09-09 11:26:46,791 [Worker-44: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\AViIT\Demos\Selenium_13\MyMavenProject\pom.xml.
+2025-09-09 11:26:47,677 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 11:26:47,680 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 11:27:03,036 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-09 11:27:03,216 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\AViIT\Demos\Selenium_13\MyMavenProject\pom.xml.
+2025-09-09 11:27:03,770 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyMavenProject/src/main/java
+2025-09-09 11:27:03,771 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyMavenProject/src/test/java
+2025-09-09 11:27:04,227 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2025-09-09 11:27:04,803 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 11:27:04,805 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 11:27:13,488 [Worker-43: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 11:27:13,488 [Worker-43: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2025-09-09 11:28:27,036 [Worker-43: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:579)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:547)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:503)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:349)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:303)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:198)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:860)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:392)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:417)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </plugins> must match start tag name <plugin> from line 89 (position: TEXT seen ...</dependencies>\r\n\t\t</plugins>... @111:13) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:85)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:577)
+	... 23 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </plugins> must match start tag name <plugin> from line 89 (position: TEXT seen ...</dependencies>\r\n\t\t</plugins>... @111:13) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2090)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1361)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1319)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1305)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parsePlugin(MavenXpp3Reader.java:2717)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseBuild(MavenXpp3Reader.java:988)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2281)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3872)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:112)
+	... 25 common frames omitted
+2025-09-09 11:28:28,333 [Worker-43: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:579)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:547)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:503)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:349)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:303)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:198)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:860)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:392)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:417)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </plugins> must match start tag name <plugin> from line 89 (position: TEXT seen ...</dependencies>\r\n\t\t</plugins>... @111:13) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:85)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:577)
+	... 23 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </plugins> must match start tag name <plugin> from line 89 (position: TEXT seen ...</dependencies>\r\n\t\t</plugins>... @111:13) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2090)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1361)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1319)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1305)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parsePlugin(MavenXpp3Reader.java:2717)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseBuild(MavenXpp3Reader.java:988)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2281)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3872)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:112)
+	... 25 common frames omitted
+2025-09-09 11:28:51,105 [Worker-41: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\AViIT\Demos\Selenium_13\MyMavenProject\pom.xml.
+2025-09-09 11:28:52,088 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 11:28:52,091 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 11:28:53,767 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 11:28:53,769 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 11:29:13,881 [Worker-41: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 11:29:13,881 [Worker-41: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2025-09-09 11:29:35,600 [Worker-41: Launching Executing clean in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 11:29:35,600 [Worker-41: Launching Executing clean in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2025-09-09 11:29:46,195 [Worker-46: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 11:29:46,195 [Worker-46: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2025-09-09 11:30:43,361 [Worker-43: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\AViIT\Demos\Selenium_13\MyMavenProject\pom.xml.
+2025-09-09 11:30:44,166 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\main\resources
+2025-09-09 11:30:44,169 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AViIT\Demos\Selenium_13\MyMavenProject\src\test\resources
+2025-09-09 11:30:59,401 [Worker-46: Launching Executing clean in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 11:30:59,401 [Worker-46: Launching Executing clean in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2025-09-09 11:31:09,037 [Worker-45: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\AViIT\Demos\Selenium_13\MyMavenProject
+2025-09-09 11:31:09,037 [Worker-45: Launching Executing test in D__AViIT_Demos_Selenium_13_MyMavenProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
