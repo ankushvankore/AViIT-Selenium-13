@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-02T11:20:56 IST" name="Default suite" finished-at="2025-09-02T11:21:26 IST" duration-ms="30542">
+  <suite started-at="2025-09-17T09:14:47 IST" name="Default suite" finished-at="2025-09-17T09:15:00 IST" duration-ms="12753">
     <groups>
     </groups>
-    <test started-at="2025-09-02T11:20:56 IST" name="Default test" finished-at="2025-09-02T11:21:26 IST" duration-ms="30542">
-      <class name="com.TestNGDemos.D13LoginToOHRM_DDF">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D13LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-09-02T11:20:56 IST" name="beforeTest" finished-at="2025-09-02T11:21:09 IST" duration-ms="12800" status="PASS">
+    <test started-at="2025-09-17T09:14:47 IST" name="Default test" finished-at="2025-09-17T09:15:00 IST" duration-ms="12753">
+      <class name="com.TestNGDemos.D06DataProviderDemo">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@74e52ef6]" started-at="2025-09-17T09:14:47 IST" name="beforeTest" finished-at="2025-09-17T09:14:57 IST" duration-ms="9210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D13LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-09-02T11:21:09 IST" name="login" data-provider="getLoginDetails" finished-at="2025-09-02T11:21:10 IST" duration-ms="1052" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@74e52ef6]" started-at="2025-09-17T09:14:57 IST" name="login" data-provider="getLoginData" finished-at="2025-09-17T09:14:59 IST" duration-ms="2354" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D13LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-09-02T11:21:10 IST" name="logout" finished-at="2025-09-02T11:21:16 IST" duration-ms="6023" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D13LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-09-02T11:21:16 IST" name="login" data-provider="getLoginDetails" finished-at="2025-09-02T11:21:18 IST" duration-ms="1648" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@74e52ef6]" started-at="2025-09-17T09:14:57 IST" name="login" data-provider="getLoginData" finished-at="2025-09-17T09:14:59 IST" duration-ms="2375" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -44,34 +40,64 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: MicrosoftEdge=140.0.3485.66)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [df6a0865e2634df0fad9fca3b2e681dd, submitElement {id=f.49980FCD037329549AB98470BF2D9CD8.d.753EC52391CD2BE804B40CF1B8BD087A.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51052}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\Dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51052/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (df6a0865e2634df0fad9fca3b2e681dd)] -> xpath: //button[@type='submit']]
+Session ID: df6a0865e2634df0fad9fca3b2e681dd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=140.0.3485.66)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [df6a0865e2634df0fad9fca3b2e681dd, submitElement {id=f.49980FCD037329549AB98470BF2D9CD8.d.753EC52391CD2BE804B40CF1B8BD087A.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51052}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\Dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51052/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (df6a0865e2634df0fad9fca3b2e681dd)] -> xpath: //button[@type='submit']]
+Session ID: df6a0865e2634df0fad9fca3b2e681dd
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:82)
+at com.TestNGDemos.D06DataProviderDemo.login(D06DataProviderDemo.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D13LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-09-02T11:21:18 IST" name="logout" finished-at="2025-09-02T11:21:18 IST" duration-ms="465" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D13LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-09-02T11:21:18 IST" name="login" data-provider="getLoginDetails" finished-at="2025-09-02T11:21:19 IST" duration-ms="1264" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ankush]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ankush123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D13LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-09-02T11:21:19 IST" name="logout" finished-at="2025-09-02T11:21:20 IST" duration-ms="543" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D13LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-09-02T11:21:20 IST" name="login" data-provider="getLoginDetails" finished-at="2025-09-02T11:21:21 IST" duration-ms="1464" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@74e52ef6]" started-at="2025-09-17T09:14:57 IST" name="login" data-provider="getLoginData" finished-at="2025-09-17T09:14:59 IST" duration-ms="2392" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -84,38 +110,154 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: MicrosoftEdge=140.0.3485.66)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [df6a0865e2634df0fad9fca3b2e681dd, submitElement {id=f.49980FCD037329549AB98470BF2D9CD8.d.753EC52391CD2BE804B40CF1B8BD087A.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51052}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\Dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51052/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (df6a0865e2634df0fad9fca3b2e681dd)] -> xpath: //button[@type='submit']]
+Session ID: df6a0865e2634df0fad9fca3b2e681dd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=140.0.3485.66)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [df6a0865e2634df0fad9fca3b2e681dd, submitElement {id=f.49980FCD037329549AB98470BF2D9CD8.d.753EC52391CD2BE804B40CF1B8BD087A.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51052}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\Dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51052/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (df6a0865e2634df0fad9fca3b2e681dd)] -> xpath: //button[@type='submit']]
+Session ID: df6a0865e2634df0fad9fca3b2e681dd
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:82)
+at com.TestNGDemos.D06DataProviderDemo.login(D06DataProviderDemo.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D13LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-09-02T11:21:21 IST" name="logout" finished-at="2025-09-02T11:21:24 IST" duration-ms="2357" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D13LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-09-02T11:21:24 IST" name="login" data-provider="getLoginDetails" finished-at="2025-09-02T11:21:25 IST" duration-ms="1866" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@74e52ef6]" started-at="2025-09-17T09:14:57 IST" name="login" data-provider="getLoginData" finished-at="2025-09-17T09:14:59 IST" duration-ms="2420" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[megha]]>
+                <![CDATA[harshada]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[megha123]]>
+                <![CDATA[harshada123]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: MicrosoftEdge=140.0.3485.66)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [df6a0865e2634df0fad9fca3b2e681dd, submitElement {id=f.49980FCD037329549AB98470BF2D9CD8.d.753EC52391CD2BE804B40CF1B8BD087A.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51052}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\Dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51052/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (df6a0865e2634df0fad9fca3b2e681dd)] -> xpath: //button[@type='submit']]
+Session ID: df6a0865e2634df0fad9fca3b2e681dd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=140.0.3485.66)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [df6a0865e2634df0fad9fca3b2e681dd, submitElement {id=f.49980FCD037329549AB98470BF2D9CD8.d.753EC52391CD2BE804B40CF1B8BD087A.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51052}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\Dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51052/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (df6a0865e2634df0fad9fca3b2e681dd)] -> xpath: //button[@type='submit']]
+Session ID: df6a0865e2634df0fad9fca3b2e681dd
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:82)
+at com.TestNGDemos.D06DataProviderDemo.login(D06DataProviderDemo.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D13LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-09-02T11:21:25 IST" name="logout" finished-at="2025-09-02T11:21:26 IST" duration-ms="530" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@74e52ef6]" started-at="2025-09-17T09:14:59 IST" name="afterMethod" finished-at="2025-09-17T09:14:59 IST" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D13LoginToOHRM_DDF@6ed3ccb2]" started-at="2025-09-02T11:21:26 IST" name="afterTest" finished-at="2025-09-02T11:21:26 IST" duration-ms="417" status="PASS">
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@74e52ef6]" started-at="2025-09-17T09:14:59 IST" name="afterMethod" finished-at="2025-09-17T09:14:59 IST" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.TestNGDemos.D13LoginToOHRM_DDF -->
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@74e52ef6]" started-at="2025-09-17T09:14:59 IST" name="afterMethod" finished-at="2025-09-17T09:14:59 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@74e52ef6]" started-at="2025-09-17T09:14:59 IST" name="afterMethod" finished-at="2025-09-17T09:14:59 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@74e52ef6]" started-at="2025-09-17T09:14:59 IST" name="closeBrowser" finished-at="2025-09-17T09:15:00 IST" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestNGDemos.D06DataProviderDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -33,7 +33,7 @@ public class D06DataProviderDemo {
 	}
 
 
-	@DataProvider
+	@DataProvider()
 	public Object[][] getLoginData() {
 		return new Object[][] {
 			new Object[] { "admin", "admin123" },
